@@ -8,6 +8,7 @@ import { FaLandmark } from "react-icons/fa"; // Represents National Museum
 import BarGraph from "../components/BarGraph";
 import RecentActivities from "../components/RecentActivities";
 import SocialMediaCards from "../components/SocialMediaCards";
+import SocialMediaDashboard from "../components/SocialMediaDashboard";
 
 const Home = () => {
   const data = [
@@ -126,7 +127,7 @@ const Home = () => {
       </div>
       {/* SocialMediaCards Component */}
       <div className="mt-8">
-        <SocialMediaCards />
+        <SocialMediaDashboard/>
       </div>
     </div>
   );
