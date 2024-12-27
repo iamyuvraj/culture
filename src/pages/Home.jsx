@@ -7,8 +7,8 @@ import { GiModernCity } from "react-icons/gi"; // Represents National Gallery of
 import { FaLandmark } from "react-icons/fa"; // Represents National Museum
 import BarGraph from "../components/BarGraph";
 import RecentActivities from "../components/RecentActivities";
-import SocialMediaCards from "../components/SocialMediaCards";
 import SocialMediaDashboard from "../components/SocialMediaDashboard";
+import UsersData from "../components/UsersData";
 
 const Home = () => {
   const data = [
@@ -127,7 +127,10 @@ const Home = () => {
       </div>
       {/* SocialMediaCards Component */}
       <div className="mt-8">
-        <SocialMediaDashboard/>
+        <SocialMediaDashboard />
+      </div>
+      <div className="max-w-8xl mx-auto p-6">
+        <UsersData/>
       </div>
     </div>
   );
