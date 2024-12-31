@@ -10,7 +10,7 @@ const EngagementCard = ({ icon: Icon, title, value, change }) => (
     animate={{ opacity: 1, x: 0 }}
     transition={{ duration: 0.3 }}
   >
-    <div className="bg-blue-100 p-3 rounded-full">
+    <div className="bg-blue-100 p-4 rounded-full">
       <Icon className="text-blue-500 w-6 h-6" />
     </div>
     <div className="flex-grow">
