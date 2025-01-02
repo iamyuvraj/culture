@@ -52,7 +52,7 @@ const UsersCard = ({ stats, countries }) => {
         <div className="w-full lg:w-3/5 xl:w-2/3 p-0 h-full">
           {" "}
           {/* Removed padding */}
-          <div className="w-full h-full bg-gray-50 rounded-lg flex items-center justify-center">
+          <div className="w-full h-full bg-white rounded-lg flex items-center justify-center">
             <WorldMap
               color="blue"
               title="Users"
